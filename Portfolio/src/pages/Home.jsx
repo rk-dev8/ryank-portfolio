@@ -32,13 +32,15 @@ export default function Home() {
       <div className="page-container">
         <h1>Dev</h1>
         <h5>Velo22</h5>
-        <p>screenshots of small projects, explanation of geomatch, list of topics learned</p><br /><br />
+        <p>Velo22 is a cycling community website it Jackson, WY. I started this website in order to create a central hub for routes, events, group rides, and more in Teton County. While I made this with squarespace, It taught me so much about designing and running a website, and was the catalyst to dive into software developement </p>
+        <a href="https://velo22.org" target="_blank" rel="noopener noreferrer">Visit Velo22</a>
+        <br /><br />
 
         <h5>GeoMatch</h5>
-        <p>Description of GeoMatch project, including features, technologies used, and key learnings.</p> <br /><br />
+        <p>GeoMatch is a bicycle geometry visualization tool designed to bridge the gap between different frame designs. By algorithmically comparing reach, stack, and angles, the app allows builders and sellers to match fit coordinates across disparate frames, ensuring a consistent ride feel regardless of the chassis. This project is currently in progress, and will hopefully be used in bike shops in the future. </p> <br /><br />
 
         <h5>Small Projects</h5>
-        <p>Brief descriptions of various small projects, highlighting the technologies used and the problems solved.</p>
+        <p>In my github, you will see several projects from my Purdue Software Developement Program that were practice using: <ul><li>React</li><li>JavaScript</li><li>Tailwind CSS</li><li>MySQL</li><li>MongoDB</li><li>Express</li><li>Node.js</li><li>Generative AI</li><li>Framework Testing</li></ul> </p>
       </div>
 
 
