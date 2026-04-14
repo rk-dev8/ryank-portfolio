@@ -31,7 +31,14 @@ export default function Home() {
 
       <div className="page-container">
         <h1>Dev</h1>
-        <p>screenshots of small projects, explanation of geomatch, list of topics learned</p>
+        <h5>Velo22</h5>
+        <p>screenshots of small projects, explanation of geomatch, list of topics learned</p><br /><br />
+
+        <h5>GeoMatch</h5>
+        <p>Description of GeoMatch project, including features, technologies used, and key learnings.</p> <br /><br />
+
+        <h5>Small Projects</h5>
+        <p>Brief descriptions of various small projects, highlighting the technologies used and the problems solved.</p>
       </div>
 
 
@@ -46,14 +53,14 @@ export default function Home() {
               <p class="degree">Full Stack Development with Generative AI</p>
               <p class="details">Intensive program focused on MERN stack (MongoDB, Express, React, Node) and AI-driven development workflows.</p>
             </div>
-          </div>
+          </div><br /><br />
 
           <div class="container right">
             <div class="content">
               <h3>2017</h3>
               <h2>Colorado State University</h2>
               <p class="degree">B.S. Natural Sciences, Biology Education</p>
-              <p class="details">Background in scientific education and technical troubleshooting.</p>
+              <p class="details"></p>
             </div>
           </div>
         </div>
