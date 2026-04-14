@@ -1,6 +1,8 @@
 export default function Home() {
   return (
     <>
+
+      <img src="./assets/me.WEBP" alt="Ryan Kurtz" />
       <div className="page-container">
         <h1>Welcome to My Portfolio</h1>
         <p>This is the home page.</p>
@@ -19,14 +21,17 @@ export default function Home() {
       {/* About me */}
       <div className="page-container">
         <h1>About Me</h1>
-        <p>work experience, life story, </p>
+        <p><strong>The Foundation:</strong><br /> A background rooted in the technical precision of high-end bike mechanics and the communication-heavy world of 7th-grade science. These roles taught me how to deconstruct complex systems and translate technical "how" into human "why." <br /><br />
+          <strong>The Stack:</strong><br /> Currently building responsive, performance-driven applications using React, JavaScript, and Tailwind CSS. Back-end focused in MySQL and Node.js, with a specialization in Generative AI integration through Purdue University. <br /><br />
+          <strong>The Projects:</strong><br /> From architecting bike geometry visualization tools to developing full-scale HR portals, I focus on writing clean, maintainable code that solves niche problems. <br /><br />
+          <strong>The Goal:</strong><br /> Applying a teacher’s clarity and a mechanic’s eye for detail to an engineering team building the next generation of integrated technology.</p>
       </div>
 
       {/* Dev Projects */}
 
       <div className="page-container">
-        <h1>My Projects</h1>
-        <p>screenshots of small projects, explanation of geomatch</p>
+        <h1>Dev</h1>
+        <p>screenshots of small projects, explanation of geomatch, list of topics learned</p>
       </div>
 
 
@@ -53,6 +58,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
 
 
 
