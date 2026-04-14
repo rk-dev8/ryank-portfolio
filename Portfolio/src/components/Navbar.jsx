@@ -6,23 +6,20 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <Link to="/">Ryan Kurtz Dev</Link>
+          Ryan Kurtz Dev
         </div>
         <ul className="nav-menu">
           <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
+            Welcome
           </li>
           <li className="nav-item">
-            <Link to="/education" className="nav-link">Education</Link>
+            About me
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link">Projects</Link>
+            Dev
           </li>
           <li className="nav-item">
-            <Link to="/velo22" className="nav-link">Velo22</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link">Contact</Link>
+            Education
           </li>
         </ul>
       </div>

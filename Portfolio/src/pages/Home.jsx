@@ -1,8 +1,62 @@
 export default function Home() {
   return (
-    <div className="page-container">
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is the home page.</p>
-    </div>
+    <>
+      <div className="page-container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the home page.</p>
+        <div className="page-container">
+          <h1>Contact Me</h1>
+          <p>Ryan Kurtz</p>
+          <p>Longmont, Colorado</p>
+          <p>Ryan.Kurtz08@gmail.com</p>
+          <p>Github: rk-dev8</p>
+          <p>Linkedin: www.linkedin.com/in/ryan-kurtz-5b5b14344</p>
+
+        </div>
+      </div>
+
+
+      {/* About me */}
+      <div className="page-container">
+        <h1>About Me</h1>
+        <p>work experience, life story, </p>
+      </div>
+
+      {/* Dev Projects */}
+
+      <div className="page-container">
+        <h1>My Projects</h1>
+        <p>screenshots of small projects, explanation of geomatch</p>
+      </div>
+
+
+      {/* Education */}
+      <section class="education-section">
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h1>Education</h1>
+              <h3>March 2026</h3>
+              <h2>Purdue University</h2>
+              <p class="degree">Full Stack Development with Generative AI</p>
+              <p class="details">Intensive program focused on MERN stack (MongoDB, Express, React, Node) and AI-driven development workflows.</p>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>2017</h3>
+              <h2>Colorado State University</h2>
+              <p class="degree">B.S. Natural Sciences, Biology Education</p>
+              <p class="details">Background in scientific education and technical troubleshooting.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    </>
   );
 }
