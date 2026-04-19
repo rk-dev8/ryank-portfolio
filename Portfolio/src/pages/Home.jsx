@@ -1,10 +1,39 @@
+import mePhoto from '../assets/me.WEBP';
+import velo22Logo from '../assets/Velo22_logo.PNG';
+
+import {
+  SiJavascript,
+  SiHtml5,
+  SiCss,
+  SiReact,
+  SiNodedotjs,
+  SiExpress,
+  SiTailwindcss,
+  SiMongodb,
+  SiMysql,
+} from 'react-icons/si';
+
+const stack = [
+  { label: 'JavaScript', icon: <SiJavascript color="#F7DF1E" /> },
+  { label: 'HTML',       icon: <SiHtml5      color="#E34F26" /> },
+  { label: 'CSS',        icon: <SiCss        color="#1572B6" /> },
+  { label: 'React',      icon: <SiReact      color="#61DAFB" /> },
+  { label: 'Node.js',    icon: <SiNodedotjs  color="#339933" /> },
+  { label: 'Express.js', icon: <SiExpress    color="#888888" /> },
+  { label: 'Tailwind',   icon: <SiTailwindcss color="#06B6D4" /> },
+  { label: 'MongoDB',    icon: <SiMongodb    color="#47A248" /> },
+  { label: 'MySQL',      icon: <SiMysql      color="#4479A1" /> },
+];
+
 export default function Home() {
   return (
     <>
 
-      <img src="./assets/me.WEBP" alt="Ryan Kurtz" />
-      <div className="page-container">
-        <h1>Welcome to My Portfolio</h1>
+      <div className="profile-img-wrapper">
+        <img src={mePhoto} alt="Ryan Kurtz" className="profile-img" />
+      </div>
+      <div id="welcome" className="page-container">
+        <h2>Welcome to My Portfolio</h2>
         <p>This is the home page.</p>
         <div className="page-container">
           <h1>Contact Me</h1>
@@ -19,35 +48,47 @@ export default function Home() {
 
 
       {/* About me */}
-      <div className="page-container">
-        <h1>About Me</h1>
-        <p><strong>The Foundation:</strong><br /> A background rooted in the technical precision of high-end bike mechanics and the communication-heavy world of 7th-grade science. These roles taught me how to deconstruct complex systems and translate technical "how" into human "why." <br /><br />
-          <strong>The Stack:</strong><br /> Currently building responsive, performance-driven applications using React, JavaScript, and Tailwind CSS. Back-end focused in MySQL and Node.js, with a specialization in Generative AI integration through Purdue University. <br /><br />
-          <strong>The Projects:</strong><br /> From architecting bike geometry visualization tools to developing full-scale HR portals, I focus on writing clean, maintainable code that solves niche problems. <br /><br />
-          <strong>The Goal:</strong><br /> Applying a teacher’s clarity and a mechanic’s eye for detail to an engineering team building the next generation of integrated technology.</p>
+      <div id="about" className="page-container">
+        <h2>About Me</h2>
+        <p><strong>About me:</strong><br /> 
+          Full-stack developer with a mechanic's precision and a teacher's clarity. I build performant web applications using React, Tailwind, and Node.js, specializing in Generative AI solutions. I focus on writing clean, scalable code for niche problems—from cycling geometry visualizers to enterprise HR tools. I'm driven by the "how" of complex systems and the "why" of user experience.
+          </p>
+
+        <h3 className="stack-heading">My Stack</h3>
+        <div className="stack-grid">
+          {stack.map(({ label, icon }) => (
+            <div key={label} className="stack-item">
+              <span className="stack-icon">{icon}</span>
+              <span className="stack-label">{label}</span>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Dev Projects */}
 
-      <div className="page-container">
-        <h1>Dev</h1>
-        <h5>Velo22</h5>
-        <p>screenshots of small projects, explanation of geomatch, list of topics learned</p><br /><br />
+      <div id="dev" className="page-container">
+        <h2>Dev</h2>
+        
+          <h5>Velo22</h5>
+          <img src={velo22Logo} alt="Velo22 logo" className="project-logo-circle" />
+       
+        <p>Velo22 is a cycling community website in Teton County, WY. I started Velo22 in an attempt to bring the cycling community together in Jackson, WY and the surrounding areas. While I made this website with Squarespace, this sparked my interest in the software developement world, and from there, I began exploring full-stack development.</p><br /><br />
 
         <h5>GeoMatch</h5>
-        <p>Description of GeoMatch project, including features, technologies used, and key learnings.</p> <br /><br />
+        <p>Geomatch is a bicycle geometry comparison tool that will make it easier for bike shops to be able to compare two bikes and be able to make them both fit the same. This will make the process of ordering new custom bikes easier. Geomatch is still in developement, so check back soon for updates.</p> <br /><br />
 
         <h5>Small Projects</h5>
-        <p>Brief descriptions of various small projects, highlighting the technologies used and the problems solved.</p>
+        <p>There are several small projects listed on my github that were practice exercises to improve my skills and explore new technologies.</p>
       </div>
 
 
       {/* Education */}
-      <section class="education-section">
+      <section id="education" className="education-section">
         <div class="timeline">
           <div class="container left">
             <div class="content">
-              <h1>Education</h1>
+              <h2>Education</h2>
               <h3>March 2026</h3>
               <h2>Purdue University</h2>
               <p class="degree">Full Stack Development with Generative AI</p>
