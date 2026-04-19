@@ -1,15 +1,15 @@
 :root {
-  /* Primary Colors */
-  --color-primary-mossy-green: #6B8E23;
-  --color-secondary-sage: #8B9D6D;
-  --color-accent-burnt-sienna: #C4622D;
-  --color-background-linen: #FAF6F0;
-  --color-text-charcoal: #1A1A1A;
+  /* Minimal Monochrome */
+  --color-primary-charcoal: #1F1F1F;
+  --color-secondary-midgray: #6B6B6B;
+  --color-accent-electric-blue: #2563EB;
+  --color-background-offwhite: #F5F5F5;
+  --color-text-dark: #1F1F1F;
 
   /* Semantic color variables */
-  --primary: var(--color-primary-mossy-green);
-  --secondary: var(--color-secondary-sage);
-  --accent: var(--color-accent-burnt-sienna);
-  --background: var(--color-background-linen);
-  --text: var(--color-text-charcoal);
+  --primary: var(--color-primary-charcoal);
+  --secondary: var(--color-secondary-midgray);
+  --accent: var(--color-accent-electric-blue);
+  --background: var(--color-background-offwhite);
+  --text: var(--color-text-dark);
 }
