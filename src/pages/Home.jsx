@@ -12,6 +12,8 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiMysql,
+  SiPython,
+  SiC,
 } from 'react-icons/si';
 
 const stack = [
@@ -24,6 +26,8 @@ const stack = [
   { label: 'Tailwind',   icon: <SiTailwindcss color="#06B6D4" /> },
   { label: 'MongoDB',    icon: <SiMongodb    color="#47A248" /> },
   { label: 'MySQL',      icon: <SiMysql      color="#4479A1" /> },
+  { label: 'Python',     icon: <SiPython     color="#3776AB" /> },
+  { label: 'C',          icon: <SiC          color="#A8B9CC" /> },
 ];
 
 export default function Home() {
@@ -82,7 +86,8 @@ export default function Home() {
 
         <div className="project-card">
           <h5>GeoMatch</h5>
-          <p>Geomatch is a bicycle geometry comparison tool that will make it easier for bike shops to compare two bikes and make them fit the same. This will streamline the process of ordering new custom bikes. Geomatch is still in development — check back soon for updates.</p>
+          <p>Geomatch is a bicycle geometry comparison tool that will make it easier for bike shops to compare two bikes and make them fit the same. This will streamline the process of ordering new custom bikes.</p>
+          <a href="https://rk-dev8.github.io/ryank-portfolio" target="_blank" rel="noreferrer">Click here to visit the site</a>
         </div>
 
         <div className="project-card">
