@@ -87,7 +87,7 @@ export default function Home() {
         <div className="project-card">
           <h5>GeoMatch</h5>
           <p>Geomatch is a bicycle geometry comparison tool that will make it easier for bike shops to compare two bikes and make them fit the same. This will streamline the process of ordering new custom bikes.</p>
-          <a href="https://rk-dev8.github.io/ryank-portfolio" target="_blank" rel="noreferrer">Click here to visit the site</a>
+          <a href="http://ec2-3-144-32-48.us-east-2.compute.amazonaws.com:4000/" target="_blank" rel="noreferrer">Click here to visit the site</a>
         </div>
 
         <div className="project-card">
