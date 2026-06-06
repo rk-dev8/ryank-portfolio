@@ -40,7 +40,7 @@ export default function Home() {
       <div id="welcome" className="page-container welcome-section">
         <div className="welcome-text">
           <h2><TypewriterText /></h2>
-          <p>Full-stack developer based in Longmont, Colorado.</p>
+          <p>Full-stack developer based in Longmont, Colorado. </p>
         </div>
         <div className="contact-card">
           <h3>Contact</h3>
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="timeline-content">
               <h3>Purdue University</h3>
               <p className="degree">Full Stack Development with Generative AI</p>
-              <p className="details">Intensive program focused on MERN stack (MongoDB, Express, React, Node) and AI-driven development workflows.</p>
+              <p className="details">Intensive program focused on MERN stack (MongoDB, Express, React, Node) and AI-driven development workflows. </p>
             </div>
           </div>
           <div className="timeline-item">
